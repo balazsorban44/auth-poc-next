@@ -10,7 +10,6 @@ export function decrypt(input: string): any {
 }
 
 export async function login(formData: FormData) {
-  "use server";
   // Verify credentials && get the user
 
   const user = { email: formData.get("email"), name: "John" };
