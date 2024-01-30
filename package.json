@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "jose": "^5.1.3",
-    "ms": "3.0.0-canary.1",
     "next": "14.1.1-canary.20",
     "react": "latest",
     "react-dom": "latest"
