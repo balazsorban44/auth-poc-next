@@ -21,7 +21,6 @@ export async function decrypt(input: string): Promise<any> {
 }
 
 export async function login(formData: FormData) {
-  "use server";
   // Verify credentials && get the user
 
   const user = { email: formData.get("email"), name: "John" };
